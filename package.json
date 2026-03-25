@@ -1,0 +1,24 @@
+{
+  "name": "systemicalbot",
+  "version": "3.25.2026",
+  "homepage": "https://github.com/SystemicalApp/SystemicalBot#readme",
+  "bugs": {
+    "url": "https://github.com/SystemicalApp/SystemicalBot/issues"
+  },
+  "license": "AGPL-3.0",
+  "author": "Onyx",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc && node ."
+  },
+  "dependencies": {
+    "discord.js": "^13.17.1",
+    "dotenv": "^17.3.1",
+    "glob": "^13.0.6",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.0"
+  }
+}
