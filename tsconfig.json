@@ -36,7 +36,9 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    //? I REALLY don't like commonjs export syntax. 
+    //? I need the commonjs require function, but I heavily prefer the "export default" syntax.
+    "verbatimModuleSyntax": false,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
