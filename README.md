@@ -18,7 +18,7 @@ This bot is planned to be a helper with the SystemicalApp, and to be a pseudo-al
 
 ### Create Journal
 
-| Option name          | Required  | Type       | Default Value   Formatting                     |
+| Option name          | Required  | Type       | Default Value |  Formatting                    |
 | -------------------- | --------- | ---------- | ------------- | ------------------------------ |
 | Title                | ✅        | String     | No default    | Not required, accepts markdown |
 | Content              | ✅        | String     | No default    | Not required, accepts markdown |
