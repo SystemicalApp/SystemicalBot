@@ -1,10 +1,10 @@
 //? Creating a command to create a journal entry. In the future, this will be a subcommand of a larger command.
 
 // TODO: Add user option to make the journal entry non-ephemeral.
+// TODO: Add user authentication.
 
 import { Attachment, ChatInputCommandInteraction, EmbedBuilder, MessageFlags } from "discord.js";
 import { command, commandOptionTypes, SystemicalBot } from "../../index.js";
-
 
 const CREATE_JOURNAL: command = {
     interaction: {
