@@ -12,7 +12,7 @@ import {
   type GatewayIntentsString,
 } from "discord.js";
 import { glob } from "glob";
-config();
+config({quiet: true});
 
 
 export class SystemicalBot {
